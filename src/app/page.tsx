@@ -50,7 +50,7 @@ export default function Home() {
 
       </div>
 
-      <div className="h-200 z-50 bg-amber-300">
+      <div className="h-200 z-50 bg-gray-100">
 
       </div>
 

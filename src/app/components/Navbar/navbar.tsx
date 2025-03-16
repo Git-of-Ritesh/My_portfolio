@@ -4,7 +4,7 @@ import MenuButton from '@/app/components/MenuButton/menuButton';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="w-screen p-4">
+        <nav className="w-screen p-4 fixed">
             <div className="container mx-auto flex justify-between items-center">
 
                 {/* Left side: Icon and Name */}

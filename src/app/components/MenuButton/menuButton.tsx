@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 
-const menuButton: React.FC = () => {
+const MenuButton: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -26,4 +26,4 @@ const menuButton: React.FC = () => {
   )
 }
 
-export default menuButton;
+export default MenuButton;

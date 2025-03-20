@@ -82,7 +82,7 @@ export default function Home() {
         <div className="p-4 sm:p-12 flex flex-col gap-y-6">
 
           <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">
-            <h1 className="text-black text-3xl sm:text-6xl font-bold">Projects I've done</h1>
+            <h1 className="text-black text-3xl sm:text-6xl font-bold">Projects I&apos;ve done</h1>
             <h2 className="text-sm text-center sm:text-xl text-gray-600">I build Web Applications that bring positive results to businesses. Check out a few of my projects. </h2>
           </div>
 

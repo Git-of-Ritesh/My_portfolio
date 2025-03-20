@@ -1,8 +1,11 @@
 import Navbar from "@/app/components/Navbar/navbar";
+import Image from 'next/image';
 import Home_model from "@/app/components/3D_models/home_model";
 import Circular_text from '@/app/components/circular_text/circularText'
 import ResumeButton from "./components/Buttons/resumeButton";
 import FourModels from "./components/3D_models/fourModels";
+import VisitSiteButton from "./components/Buttons/visitSiteButton";
+import GithubButton from "./components/Buttons/GithubButton";
 
 export default function Home() {
 
@@ -75,17 +78,54 @@ export default function Home() {
           <div className="absolute bottom-0 right-0 bg-gray-100 w-40 h-20"></div>
         </div>
 
-        {/* selected word section */}
-        <div className="p-12">
-          <h1 className="text-black text-xl sm:text-4xl font-medium">SELECTED WORKS</h1>
-          <hr className="text-black mt-5" />
+        {/* selected work section */}
+        <div className="p-4 sm:p-12 flex flex-col gap-y-6">
+
+          <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">
+            <h1 className="text-black text-3xl sm:text-6xl font-bold">Projects I've done</h1>
+            <h2 className="text-sm text-center sm:text-xl text-gray-600">I build Web Applications that bring positive results to businesses. Check out a few of my projects. </h2>
+          </div>
 
           {/* project cards */}
-          <div>
-            {/* project image */}
-          <div></div>
+          <div className="sm:py-12 py-6 sm:mx-20 flex flex-col bg-zinc-300 rounded-xl">
+
             {/* project discription */}
-            <div></div>
+            <div className="w-full flex justify-between px-8 sm:px-24">
+              <div className="flex flex-col sm:flex-row gap-x-3">
+                <div>
+                  <Image
+                    className="sm:rounded-2xl rounded-xl sm:w-[60px] w-[50px]"
+                    src="/logo4.png"
+                    alt="Project1 logo"
+                    width={60}
+                    height={60}
+                    unoptimized
+                  />
+                </div>
+
+                <div>
+                  <h1 className="text-black text-2xl sm:text-3xl font-semibold">Notify app</h1>
+                  <h2 className="text-black text-sm sm:text-base leading-snug font-normal">About the Notify app and discription about the application</h2>
+                </div>
+              </div>
+
+              <div className="hidden sm:flex justify-center items-center gap-2">
+                <VisitSiteButton />
+                <GithubButton />
+              </div>
+            </div>
+
+            {/* project image */}
+            <div className="-mb-5 sm:-mb-10">
+              <Image
+                className="rounded-3xl"
+                src="/Project1.png"
+                alt="Icon image"
+                width={1500}
+                height={400}
+                unoptimized
+              />
+            </div>
           </div>
         </div>
 

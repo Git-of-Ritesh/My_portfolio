@@ -6,6 +6,7 @@ import ResumeButton from "./components/Buttons/resumeButton";
 import FourModels from "./components/3D_models/fourModels";
 import VisitSiteButton from "./components/Buttons/visitSiteButton";
 import GithubButton from "./components/Buttons/GithubButton";
+import TechStackAnimation from "./components/TechStackAnimation/TechStackAnimation";
 
 export default function Home() {
 
@@ -79,7 +80,7 @@ export default function Home() {
         </div>
 
         {/* selected work section */}
-        <div className="p-4 sm:p-12 flex flex-col gap-y-6">
+        <div className="p-4 sm:p-12 flex flex-col gap-y-16">
 
           <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">
             <h1 className="text-black text-3xl sm:text-6xl font-bold">Projects I&apos;ve done</h1>
@@ -127,9 +128,64 @@ export default function Home() {
               />
             </div>
           </div>
+
+          {/* project card 2 */}
+          <div className="sm:py-12 py-6 sm:mx-20 flex flex-col bg-green-100 rounded-xl">
+
+            {/* project discription */}
+            <div className="w-full flex justify-between px-8 sm:px-24">
+              <div className="flex flex-col sm:flex-row gap-x-3">
+                <div>
+                  <Image
+                    className="sm:rounded-2xl rounded-xl sm:w-[60px] w-[50px]"
+                    src="/logo5.png"
+                    alt="Project1 logo"
+                    width={60}
+                    height={60}
+                    unoptimized
+                  />
+                </div>
+
+                <div>
+                  <h1 className="text-black text-2xl sm:text-3xl font-semibold">Recipe Finder</h1>
+                  <h2 className="text-black text-sm sm:text-base leading-snug font-normal">About the Notify app and discription about the application</h2>
+                </div>
+              </div>
+
+              <div className="hidden sm:flex justify-center items-center gap-2">
+                <VisitSiteButton />
+                <GithubButton />
+              </div>
+            </div>
+
+            {/* project image */}
+            <div className="-mb-9 px-5 sm:px-18 sm:-mb-22 -mt-4 sm:-mt-14">
+              <Image
+                className="rounded-3xl"
+                src="/Project2.png"//use a snapshot size of 124 in shots app
+                alt="Icon image"
+                width={1100}
+                height={100}
+                unoptimized
+              />
+            </div>
+          </div>
+
         </div>
 
+        {/* Tech stack section */}
+        <div className="p-4 sm:p-12 flex flex-col gap-y-16">
 
+          {/* teach stack main heading */}
+          <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">
+            <h1 className="text-black text-3xl sm:text-6xl font-bold">My Tach stacks</h1>
+            <h2 className="text-sm text-center sm:text-xl text-gray-600">I use a powerful combination of technologies to create seamless, scalable, and efficient web applications. </h2>
+          </div>
+
+          {/* Tech stacks */}
+          <TechStackAnimation/>
+
+        </div>
 
       </div>
 

@@ -177,7 +177,7 @@ export default function Home() {
         </div>
 
         {/* Tech stack section */}
-        <div className="p-4 sm:p-12 flex flex-col gap-y-16">
+        <div className="p-4 mt-20 sm:mt-0 sm:p-12 flex flex-col gap-y-10 sm:gap-y-16">
 
           {/* teach stack main heading */}
           <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">

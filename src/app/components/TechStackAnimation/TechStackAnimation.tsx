@@ -47,7 +47,7 @@ const TechStackAnimation = () => {
         }}>
       </div>
 
-      <div className="absolute z-50 left-0 backdrop-blur-sm w-10 sm:w-46 h-full"
+      <div className="absolute z-50 left-0  backdrop-blur-sm w-10 sm:w-46 h-full"
         style={{
           WebkitMaskImage:
             "linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 80%, rgba(0, 0, 0, 0) 100%)",

@@ -36,7 +36,8 @@ export default function Home() {
 
           <div className="mt-4 sm:mt-2 flex space-x-4 ">
             <div className="flex items-center gap-2">
-              <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
+              <span className="relative w-3 h-3 bg-green-500 rounded-full animate-ping"></span>
+              <span className="absolute w-3 h-3 bg-green-500 rounded-full"></span>
               <p className="text-lg text-gray-700">Available to work</p>
             </div>
             <div>
@@ -172,7 +173,7 @@ export default function Home() {
             </div>
           </div>
 
-          <ViewMoreButton/>
+          <ViewMoreButton />
 
         </div>
 
@@ -186,7 +187,71 @@ export default function Home() {
           </div>
 
           {/* Tech stacks */}
-          <TechStackAnimation/>
+          <TechStackAnimation />
+
+        </div>
+
+        {/* My Expertise section */}
+        <div>
+
+          {/*  Expertise main heading */}
+          <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">
+            <h1 className="text-black text-3xl sm:text-6xl font-bold">My Expertise</h1>
+          </div>
+
+          {/* cards section */}
+          <div className="flex sm:flex-row flex-col justify-evenly items-center space-y-12 sm:space-y-0 mt-12 sm:mt-20">
+
+            {/* UI/UX DESIGN card */}
+            <div className="relative bg-white rounded-3xl p-10 w-72 h-96 z-50">
+              <div className="absolute left-1/3 top-1/2 w-20 h-20 rounded-full z-40 blur-2xl bg-blue-500"></div>
+              <span className="text-black text-xl font-medium">01</span>
+              <h3 className="text-black font-semibold  text-3xl mt-1">UI/UX DESIGNS</h3>
+              <p className="text-black tracking-tighter leading-6 text-2xl mt-8">
+                Turning ideas into intuitive designs —
+                because great UI is silent, but impactful.
+              </p>
+              {/* Circular Arrow Icon */}
+              <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">
+              ↗
+              </span>
+            </div>
+
+            {/* UI/UX DESIGN card */}
+            <div className="relative bg-white rounded-3xl p-10 w-72 h-96 z-50">
+              <div className="absolute left-1/2 top-1/5 w-20 h-20 rounded-full z-40 blur-2xl bg-red-500"></div>
+              <div className="absolute left-1/5 bottom-1/5 w-20 h-20 rounded-full z-40 blur-2xl bg-green-500"></div>
+              <span className="text-black text-xl font-medium">02</span>
+              <h3 className="text-black font-semibold tracking-tighter leading-8 text-3xl mt-1">FRONTEND DEVELOPMENT</h3>
+              <p className="text-black tracking-tighter leading-6 text-2xl mt-8">
+                Turning ideas into intuitive designs —
+                because great UI is silent, but impactful.
+              </p>
+              {/* Circular Arrow Icon */}
+              <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">
+              ↗
+              </span>
+            </div>
+
+            {/* UI/UX DESIGN card */}
+            <div className="relative bg-white rounded-3xl p-10 w-72 h-96 z-50">
+              <div className="absolute left-1/3 top-1/2 w-20 h-20 rounded-full z-40 blur-2xl bg-amber-400"></div>
+              <span className="text-black text-xl font-medium">03</span>
+              <h3 className="text-black font-semibold tracking-tighter leading-8 text-3xl mt-1">FULL-STACK DEVELOPMENT</h3>
+              <p className="text-black tracking-tighter leading-6 text-2xl mt-8">
+                Turning ideas into intuitive designs —
+                because great UI is silent, but impactful.
+              </p>
+              {/* Circular Arrow Icon */}
+              <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">
+              ↗
+              </span>
+            </div>
+
+
+          </div>
+
+
 
         </div>
 

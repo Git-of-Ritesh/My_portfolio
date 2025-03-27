@@ -7,6 +7,7 @@ import FourModels from "./components/3D_models/fourModels";
 import VisitSiteButton from "./components/Buttons/visitSiteButton";
 import GithubButton from "./components/Buttons/GithubButton";
 import TechStackAnimation from "./components/TechStackAnimation/TechStackAnimation";
+import ViewMoreButton from "./components/Buttons/ViewMore";
 
 export default function Home() {
 
@@ -80,7 +81,7 @@ export default function Home() {
         </div>
 
         {/* selected work section */}
-        <div className="p-4 sm:p-12 flex flex-col gap-y-16">
+        <div className="p-4 sm:p-12 flex flex-col justify-center items-center  gap-y-16">
 
           <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">
             <h1 className="text-black text-3xl sm:text-6xl font-bold">Projects I&apos;ve done</h1>
@@ -170,6 +171,8 @@ export default function Home() {
               />
             </div>
           </div>
+
+          <ViewMoreButton/>
 
         </div>
 

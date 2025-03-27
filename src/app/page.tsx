@@ -224,8 +224,7 @@ export default function Home() {
               <span className="text-black text-xl font-medium">02</span>
               <h3 className="text-black font-semibold tracking-tighter leading-8 text-3xl mt-1">FRONTEND DEVELOPMENT</h3>
               <p className="text-black tracking-tighter leading-6 text-2xl mt-8">
-                Turning ideas into intuitive designs —
-                because great UI is silent, but impactful.
+              Building pixel-perfect, responsive, and dynamic web experiences — where design meets code.
               </p>
               {/* Circular Arrow Icon */}
               <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">
@@ -239,8 +238,7 @@ export default function Home() {
               <span className="text-black text-xl font-medium">03</span>
               <h3 className="text-black font-semibold tracking-tighter leading-8 text-3xl mt-1">FULL-STACK DEVELOPMENT</h3>
               <p className="text-black tracking-tighter leading-6 text-2xl mt-8">
-                Turning ideas into intuitive designs —
-                because great UI is silent, but impactful.
+              Engineering end-to-end solutions — seamless frontend, powerful backend.
               </p>
               {/* Circular Arrow Icon */}
               <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">

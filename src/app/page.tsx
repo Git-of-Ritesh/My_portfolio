@@ -217,7 +217,7 @@ export default function Home() {
               </span>
             </div>
 
-            {/* UI/UX DESIGN card */}
+            {/* frontend DESIGN card */}
             <div className="relative bg-white rounded-3xl p-10 w-72 h-96 z-50">
               <div className="absolute left-1/2 top-1/5 w-20 h-20 rounded-full z-40 blur-2xl bg-red-500"></div>
               <div className="absolute left-1/5 bottom-1/5 w-20 h-20 rounded-full z-40 blur-2xl bg-green-500"></div>
@@ -232,7 +232,7 @@ export default function Home() {
               </span>
             </div>
 
-            {/* UI/UX DESIGN card */}
+            {/* full-stack DESIGN card */}
             <div className="relative bg-white rounded-3xl p-10 w-72 h-96 z-50">
               <div className="absolute left-1/3 top-1/2 w-20 h-20 rounded-full z-40 blur-2xl bg-amber-400"></div>
               <span className="text-black text-xl font-medium">03</span>

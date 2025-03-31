@@ -8,6 +8,8 @@ import VisitSiteButton from "./components/Buttons/visitSiteButton";
 import GithubButton from "./components/Buttons/GithubButton";
 import TechStackAnimation from "./components/TechStackAnimation/TechStackAnimation";
 import ViewMoreButton from "./components/Buttons/ViewMore";
+import Footer from "./components/Footer/Footer";
+import { ArrowUpRight } from 'lucide-react';
 
 export default function Home() {
 
@@ -192,7 +194,7 @@ export default function Home() {
         </div>
 
         {/* My Expertise section */}
-        <div>
+        <div className="mb-64">
 
           {/*  Expertise main heading */}
           <div className="flex flex-col gap-y-2 sm:gap-y-4 justify-center items-center">
@@ -213,7 +215,7 @@ export default function Home() {
               </p>
               {/* Circular Arrow Icon */}
               <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">
-              ↗
+                <ArrowUpRight/>
               </span>
             </div>
 
@@ -224,11 +226,11 @@ export default function Home() {
               <span className="text-black text-xl font-medium">02</span>
               <h3 className="text-black font-semibold tracking-tighter leading-8 text-3xl mt-1">FRONTEND DEVELOPMENT</h3>
               <p className="text-black tracking-tighter leading-6 text-2xl mt-8">
-              Building pixel-perfect, responsive, and dynamic web experiences — where design meets code.
+                Building pixel-perfect, responsive, and dynamic web experiences — where design meets code.
               </p>
               {/* Circular Arrow Icon */}
               <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">
-              ↗
+              <ArrowUpRight/>
               </span>
             </div>
 
@@ -238,22 +240,24 @@ export default function Home() {
               <span className="text-black text-xl font-medium">03</span>
               <h3 className="text-black font-semibold tracking-tighter leading-8 text-3xl mt-1">FULL-STACK DEVELOPMENT</h3>
               <p className="text-black tracking-tighter leading-6 text-2xl mt-8">
-              Engineering end-to-end solutions — seamless frontend, powerful backend.
+                Engineering end-to-end solutions — seamless frontend, powerful backend.
               </p>
               {/* Circular Arrow Icon */}
               <span className="absolute bottom-7 cursor-pointer right-6 bg-black w-10 h-10 flex text-xl items-center justify-center rounded-full text-white ">
-              ↗
+              <ArrowUpRight/>
               </span>
             </div>
 
-
           </div>
-
-
 
         </div>
 
+        {/* Footer section */}
+        <Footer/>
+
       </div>
+
+
 
 
     </div>

@@ -59,7 +59,7 @@ const TechStackAnimation = () => {
 
       {/* first row */}
       <div className="flex w-max space-x-11 sm:space-x-14 whitespace-nowrap animate-marquee-reverse ">
-        {[...techStack1, ...techStack1, ...techStack1, ...techStack1, ...techStack1].map((tech, index) => (
+        {[...techStack1,...techStack1,...techStack1, ...techStack1, ...techStack1, ...techStack1, ...techStack1].map((tech, index) => (
           <div
             key={index}
             className="bg-white p-3 flex justify-center items-center shadow-2xl drop-shadow-2xl rounded-2xl">
@@ -70,7 +70,7 @@ const TechStackAnimation = () => {
 
       {/* second row */}
       <div className="flex w-max space-x-11 sm:space-x-14 whitespace-nowrap animate-marquee">
-        {[...techStack2, ...techStack2, ...techStack2, ...techStack2, ...techStack2].map((tech, index) => (
+        {[...techStack2,...techStack2, ...techStack2, ...techStack2, ...techStack2, ...techStack2].map((tech, index) => (
           <div
             key={index}
             className="bg-white p-3 flex justify-center items-center shadow-2xl drop-shadow-2xl rounded-2xl">

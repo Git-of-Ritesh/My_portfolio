@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-black z-40 text-white pt-20 sm:pt-30 px-8 sm:px-20">
       <div className="w-full">
         <div className="text-left mb-8">
-          <p className="text-white uppercase text-base sm:text-xl">Let's Work Together</p>
+          <p className="text-white uppercase text-base sm:text-xl">Lets Work Together</p>
           <div className="flex w-full items-center sm:mt-2">
             <h2 className="text-gray-500 text-xl sm:text-6xl font-bold">pvt</h2>
             <span className="text-xl sm:text-6xl font-bold">riteshpandey02@gmail.com</span>

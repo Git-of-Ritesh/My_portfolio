@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="border-gray-700 mb-6" />
+        <hr className="border-gray-700 mb-6"/>
 
         <div className="flex flex-wrap justify-between text-gray-400 text-sm">
           <nav className="flex space-x-6">

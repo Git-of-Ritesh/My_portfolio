@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='hidden sm:block relative w-full h-72 overflow-hidden'>
+        <div className='hidden relative sm:flex justify-center w-full h-72 overflow-hidden'>
           <span className='absolute text-[16rem] m-0 p-0'>CONNECT</span>
         </div>
 

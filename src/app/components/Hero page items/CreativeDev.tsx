@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { motion } from 'framer-motion'
+import { easeIn, easeInOut, motion, spring } from 'framer-motion'
 
 const CreativeDev = () => {
     const text1 = "CREATIVE"
@@ -15,7 +15,8 @@ const CreativeDev = () => {
                     initial={{ y: 100 }} // Start from below and hidden
                     animate={{ y: 0 }}  // Move to normal position when animated
                     transition={{
-                        duration: 0.5,
+                        ease: easeInOut,
+                        duration: 0.7,
                         delay: index * 0.1, // Stagger the delay for each letter
                     }}
                 >

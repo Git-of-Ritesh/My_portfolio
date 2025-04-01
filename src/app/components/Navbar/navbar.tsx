@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         <motion.nav
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ type: "spring", stiffness: 80, damping: 15 }}
+            transition={{ duration: 0.4, type: "spring", stiffness: 80, damping: 15 }}
             className="w-screen p-4 fixed">
             <div className="container mx-auto flex justify-between items-center">
 

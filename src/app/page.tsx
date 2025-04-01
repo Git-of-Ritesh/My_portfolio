@@ -10,6 +10,7 @@ import TechStackAnimation from "./components/TechStackAnimation/TechStackAnimati
 import ViewMoreButton from "./components/Buttons/ViewMore";
 import Footer from "./components/Footer/Footer";
 import CreativeDev from './components/Hero page items/CreativeDev'
+import SubtitleText from "./components/Hero page items/SubtitleText";
 import { ArrowUpRight } from 'lucide-react';
 
 export default function Home() {
@@ -30,10 +31,11 @@ export default function Home() {
 
             {/* subtitle section */}
             <div className="text-black font-normal text-xs sm:text-xl mt-4 sm:mt-10 flex flex-col justify-center items-center">
-                <p>
+                {/* <p>
                     Blending design, code, and innovation to craft seamless
                 </p>
-                <p>digital experiences.</p>
+                <p>digital experiences.</p> */}
+                <SubtitleText/>
 
                 <div className="mt-4 sm:mt-2 flex space-x-4 ">
                     <div className="flex items-center gap-2">
